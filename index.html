@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anand's (self-hosted) Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            body {
+                margin: 2rem 1rem;
+                line-height: 1.4rem;
+                font-family: ui-monospace, 
+                    Menlo, Monaco, 
+                    "Cascadia Mono", "Segoe UI Mono", 
+                    "Roboto Mono", 
+                    "Oxygen Mono", 
+                    "Ubuntu Mono", 
+                    "Fira Mono", 
+                    "Droid Sans Mono", 
+                    "Lucida Console",
+                    "Consolas", "Courier New", monospace;
+                background-color: whitesmoke;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            @media screen and (min-width: 42rem) {
+                body {
+                    width: 40rem;
+                    margin: 2rem auto;
+                }
+            }
+            @media screen and (prefers-color-scheme: dark) {
+                table, th, td {
+                    border: 1px solid white;
+                }
+                a {
+                    color: coral;
+                }
+                a:visited {
+                    color: lightsalmon;
+                }
+                body {
+                    background-color: black;
+                    color: white;
+                }
+                table {
+                    border: 1px solid white;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        <p>
+            I am <a href="https://anandbose.dev" target="_blank">Anand Bose</a>.
+            Welcome to the directory of my on-premise server!
+        </p>
+        <p>
+            My old ThinkPad E14 laptop was collecting dust in the shelf, so I decided
+            to put it to good use. I made a server out of it and hosted a few services.
+            The services are exposed to the internet through Cloudflare tunnels.
+        </p>
+        <p>
+            I am looking forward for more open-source self-hostable projects,
+            and you can expect more applications running here, until it runs out of
+            capacity.
+        </p>
+        <h2>The Self-Hosted Setup</h2>
+        <ul>
+            <li>My ThinkPad E14 Laptop - Ubuntu 24.04 LTS</li>
+            <ul>
+                <li><a href="https://linuxcontainers.org/incus/">Incus</a> container host</li>
+                <ul>
+                    <li>Mastodon (Ubuntu 24.04 LTS) - <a href="https://mastodon.a-b.im">mastodon.a-b.im</a></li>
+                    <li>Bluesky PDS (Ubuntu 22.04 LTS) - <a href="https://bluesky-pds.a-b.im">bluesky-pds.a-b.im</a></li>
+                    <li>Nginx (Ubuntu 24.04 LTS) - <a href="https://a-b.im">a-b.im</a></li>
+                </ul>
+            </ul>
+        </ul>
+        <h2>Contact</h2>
+        Feel free to talk!
+        <ul>
+            <li>Mastodon: <a href="https://mastodon.a-b.im/@anandbose" rel="me">@anandbose@a-b.im</a> / <a href="https://mastodon.online/@anandbose" rel="me">@anandbose@mastodon.online</a></li>
+            <li>Bluesky: <a href="https://bsky.app/profile/a-b.im">@a-b.im</a> / <a href="https://bsky.app/profile/anandbose.dev">@anandbose.dev</a></li>
+        </ul>
+    </body>
+</html>
